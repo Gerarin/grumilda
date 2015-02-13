@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html lang="es">
-
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="device-width, user-scalable=no, initial-scale=1.0, minimun-scale=1.0, maximun-scale=1.0" />
-		<link rel="stylesheet" href="css/galery_style.css">
-		<link rel="stylesheet" media="screen" href="css/media.css">
-		<title> Grumilda n the Drunken Dwarves</title>
-	</head>
+<?php include("header.php"); ?>
 	
 	<body>
 
@@ -20,21 +11,11 @@
 					</a>
 				</div>
 
-				<a href="index.html" class="main_title"><h1 >Grumilda n The Drunken Dwarves</h1></a>
+				<a href="index.php" class="main_title"><h1 >Grumilda n' The Drunken Dwarves</h1></a>
 
 			</header>
 			
-			<nav class="main_nav">
-				
-				<ul>
-					<li class="nav_box"><a class="nav_link" href="#">Historia</a></li>
-					<li class="nav_box"><a class="nav_link" href="characters.html">Personajes</a></li>
-					<li class="nav_box"><a class="nav_link" href="players.html">Jugadores</a></li>
-					<li class="nav_box"><a class="nav_link" href="#">Guild Bank</a></li>
-					<li class="nav_box"><a class="nav_link" href="#">Galeria</a></li>
-				</ul>
-
-			</nav>
+			<?php include("main_nav.php"); ?>	
 
 			<div class="image_galery" >
 				<div class="content_title">
@@ -67,11 +48,7 @@
 				
 			</div>
 
-			<footer class="footer">
-				<p>Las imagines y logos en esta pagina son propiedad exclusiva de sus respectivos propietarios y han sido utilizadas sin fines de lucro o perjuicios.<br>El nombre: "Grumilda n the Drunken Dwarves" es propiedad compartida de los miembros del guild con el mismo nombre en el juego <a class="text_link_ddo" href="http://www.ddo.com/en">Dungeons and Dragons On-Line</a></p>
-
-			</footer>
-
+			<?php include("footer.php"); ?>
 		</div>
 
 	</body>

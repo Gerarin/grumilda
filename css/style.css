@@ -54,7 +54,7 @@ body {
 	background-color: black;
 }
 .wrap {
-	width: 100%;
+	width: 1000px;
 	min-height: 100%;
 	margin: 0px auto;
 	background-color: black;
@@ -62,9 +62,9 @@ body {
 
 /*HEADER*/
 
-.main_header{
+.main_header_big{
 	width: 100%;
-	height: 60%;
+	height: 380px;
 	background: #000;
 	background-image: url(../images/eveningstar2.png);
 	background-repeat: no-repeat; 
@@ -73,12 +73,15 @@ body {
 	background-position: center top;
 	margin: 0 auto;
 	border-bottom: 3px solid #6E6E6E;
+	position: relative;
 
 }
 
-.button{
+.button_big{
+	position: absolute;
+	top: 0;
+	left: 0;
 	width: 20%;
-	display: block;
 
 }
 
@@ -88,12 +91,16 @@ body {
 	padding-left: 20px;
 }
 
-.main_title{
+.main_title_big{
 	text-align: right;
-	padding-top: 20%;
+	padding-bottom: 20px;
 	padding-right: 40px;
-	height: 60px;
+
 	font-size: 3.4em;
+
+	position: absolute;
+	right: 0;
+	bottom: 0;
 
 	color: #ff8000;
 	text-shadow: 4px 4px 1px #000 , -1px -1px 1px #fff;
@@ -168,11 +175,15 @@ li:last-child {
 	border-bottom: 3px solid #6E6E6E;
 	padding: 15px 40px;
 	line-height: 1.2;
+	clear: left;
+	position: relative;
+	bottom: 0;
+
 
 	text-align: left;
 	color: #848484;
 }
 
-#text_link_ddo{
+.text_link_ddo{
 	color: #848484;
 }
